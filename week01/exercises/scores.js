@@ -1,8 +1,9 @@
 "use strict";
 
+// creo un array di punteggi
 const scores = [-20, -5, -1, 100, -3, 30, 50, 10];
-const betterScores = [];
-let NN = 0;
+const betterScores = []; // array per i punteggi migliori
+let NN = 0; // punteggi negativi
 
 for (let s of scores) {
   if(s>=0)
