@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "Lab1",
   "dependencies": {
-    "dayjs": "^1.11.13"
+    "dayjs": "^1.11.13",
+    "sqlite3": "^5.1.7"
   }
 }
