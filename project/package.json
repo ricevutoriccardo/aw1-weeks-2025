@@ -1,0 +1,15 @@
+{
+  "name": "poke-lab1",
+  "version": "1.0.0",
+  "main": "lab1.mjs",
+  "scripts": {
+    "start": "node lab1.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riccardo Ricevuto",
+  "license": "ISC",
+  "description": "Lab1",
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
+}
