@@ -21,6 +21,7 @@ function QuestionDescription (props) {
           <Col as='p' className='lead'>{question.text}</Col>
         </Row>
         <Outlet />
+        {/* outlet serve per mostrare le risposte */}
       </> :
       <Row>
         <Col as="p" className="lead">The selected question is not available!</Col>
